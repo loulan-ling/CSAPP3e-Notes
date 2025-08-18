@@ -94,7 +94,7 @@ main:
 - 4. 汇编阶段 
 使用`vim`查看`hello.o`只能看到乱码
 
-![[img/Pasted image 20250720230509.png]]
+![[https://github.com/loulan-ling/CSAPP3e-Notes/tree/main/img/Pasted image 20250720230509.png]]
 
 使用`objdump`可以看到十六进制的机器语言
 ```
@@ -162,7 +162,7 @@ hello.o
 
 ### 1.4.1 系统的硬件组成
 **系统硬件组成思维导图**
-![[思维导图/系统的硬件组成.png]]
+![[https://github.com/loulan-ling/CSAPP3e-Notes/tree/main/思维导图/系统的硬件组成.png]]
 
 
 #### 1.4.1.1 总线
@@ -210,7 +210,7 @@ hello.o
 ### 1.4.2 运行hello程序
 
 <mark style="background: #FF5582A6;">指令到达寄存器后，CPU就会执行指令。</mark>
-![[img/运行hello程序.drawio.svg]]
+![[https://github.com/loulan-ling/CSAPP3e-Notes/tree/main/img/运行hello程序.drawio.svg]]
 
 
 
@@ -233,7 +233,7 @@ hello.o
 ## 1.6 存储设备形成层次结构
 
 <mark style="background: #FF5582A6;">看图</mark>
-![[img/Pasted image 20250723175449.png]]
+![[https://github.com/loulan-ling/CSAPP3e-Notes/tree/main/img/Pasted image 20250723175449.png]]
 
 ## 1.7 操作系统管理硬件
 
@@ -268,7 +268,7 @@ hello.o
 - 共享库。地址空间的中间部分有一个块存放像C标准库和数学库这样的共享库的代码和数据的区域。
 - 栈。每次调用函数时，栈就会增长，从一个函数返回时，栈就会收缩。
 - 内核虚拟内存。地址空间顶部的区域是为内核保留。
-![[img/Pasted image 20250724175948.png]]
+![[https://github.com/loulan-ling/CSAPP3e-Notes/tree/main/img/Pasted image 20250724175948.png]]
 
 ### 1.7.4 文件
 文件就是字节序列。每个`I/O设备，包括磁盘、键盘、显示器，甚至是网络，都可以看成是文件`。Linux系统上的所有东西都是文件，因此Linux可以称为文件操作系统。
@@ -278,7 +278,7 @@ hello.o
 
 跟上面的hello运行差不多，只是输入地方和输出地方不同
 
-![[img/Pasted image 20250724181127.png]]
+![[https://github.com/loulan-ling/CSAPP3e-Notes/tree/main/img/Pasted image 20250724181127.png]]
 ## 1.9 重要主题
 **系统不仅仅只是硬件。系统是硬件和系统软件互相交织的集合体，它们必须共同协作以达到运行应用程序的最终目的。**
 
@@ -326,7 +326,7 @@ $$
 - 虚拟内存是对程序存储器的抽象
 - 进程是对一个正在运行程序的抽象
 - 虚拟机是对整个计算机的抽象，包括操作系统、处理器和程序。
-![[img/Pasted image 20250725180245.png]]
+![[https://github.com/loulan-ling/CSAPP3e-Notes/tree/main/img/Pasted image 20250725180245.png]]
 
 
 ## 1.10 小结
